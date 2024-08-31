@@ -14,12 +14,30 @@ coming soon!
 #### Antigen
 
 ```zsh
-antigen bundle MoeBensu/peco-zsh-plugin
+antigen bundle MoeBensu/zsh-some-peco
 ```
 
 #### zinit
 ```zsh
-zinit light MoeBensu/peco-zsh-plugin
+antigen bundle MoeBensu/zsh-some-peco
 ```
 
-## Customization
+#### zplug
+```zsh
+zplug "MoeBensu/peco-zsh-plugin"
+```
+
+#### Manual
+Or if you prefer to install it manually:
+```zsh
+git clone https://github.com/MoeBensu/zsh-some-peco.git
+echo "\n\n# zsh some peco plugin" >> ${ZDOTDIR:-$HOME}/.zshrc
+echo "source ${(q-)PWD}/zsh-some-peco/zsh-some-peco.plugin.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+```
+
+After installation, you would need to reload your shell or run:
+```zsh
+source ~/.zshrc
+```
+
+## Settings
