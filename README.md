@@ -15,9 +15,6 @@ curl -fsSL https://raw.githubusercontent.com/MoeBensu/zsh-some-peco/master/insta
 ### Plugin Manager
 Add one of the following lines to your `.zshrc` depending on your preferred zsh plugin manager:
 
-#### Using a Zsh Plugin Manager
-wip
-
 #### Antigen
 
 ```zsh
